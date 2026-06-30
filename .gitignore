@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+**/.DS_Store
+
+# Raw source images (kept locally; site serves optimized .webp instead)
+assets/*.avif
+assets/the team.jpeg
+assets/Shargo.png
+assets/alex.png
