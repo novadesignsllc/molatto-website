@@ -282,6 +282,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.05; font-weigh
   border-radius:50%; background:radial-gradient(circle, rgba(255,255,255,.18), transparent 70%); }
 .cta-inner { position:relative; z-index:2; display:flex; align-items:center; justify-content:space-between; gap:30px; flex-wrap:wrap; }
 .cta h2 { font-size:clamp(1.9rem,4vw,2.8rem); max-width:620px; }
+.cta h2.oneline { max-width:none; white-space:nowrap; font-size:clamp(1.7rem,3.2vw,2.4rem); }
 .cta p { color:rgba(255,255,255,.9); margin-top:12px; max-width:520px; }
 
 /* ---------- Page hero (inner pages) ---------- */
@@ -400,6 +401,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.05; font-weigh
   .stats-row { grid-template-columns: 1fr 1fr; gap:34px 18px; }
   .cta { padding:46px 30px; }
   .cta-inner { flex-direction:column; align-items:flex-start; }
+  .cta h2.oneline { white-space:normal; }
   .section { padding: 70px 0; }
   .field-row { grid-template-columns:1fr; }
 }
